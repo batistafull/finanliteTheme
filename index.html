@@ -1,11 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap-icons/font/bootstrap-icons.min.css">
+    <title>Finalite App</title>
 </head>
+
 <body>
-    
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark" data-bs-theme="dark" style="z-index: 9999;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">FinanLite Apps</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link icon-link" aria-current="page" href="#"><i
+                                class="bi bi-envelope-fill"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link icon-link" href="#"><i class="bi bi-bell-fill"></i></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false"><i class="bi bi-person-circle"></i> USER</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item icon-link" href="#"><i class="bi bi-person-video"></i>
+                                    Profile</a></li>
+                            <li><a class="dropdown-item icon-link" href="#"><i class="bi bi-gear-fill"></i> Config</a>
+                            </li>
+                            <li><a class="dropdown-item icon-link" href="#"><i class="bi bi-person-circle"></i> Help</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item icon-link" href="#"><i class="bi bi-box-arrow-left"></i>
+                                    Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-start show" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+        id="offcanvas" aria-labelledby="offcanvasLabel" style="width: 80px;">
+        <div class="offcanvas-header"></div>
+        <div class="offcanvas-body mt-3">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link icon-link" href="#">
+                        <i class="bi bi-toggles" style="font-size: 24px;"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link icon-link" href="#">
+                        <i class="bi bi-toggles" style="font-size: 24px;"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link icon-link" href="#">
+                        <i class="bi bi-toggles" style="font-size: 24px;"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link icon-link">
+                        <i class="bi bi-toggles" style="font-size: 24px;"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="mt-5" style="width: 88%; margin: 0 auto">
+        <h1>HERE</h1>
+    </div>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
